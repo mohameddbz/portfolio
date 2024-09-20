@@ -1,0 +1,175 @@
+import React from "react";
+import {motion} from "framer-motion"
+
+
+const Experience = () => {
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1, transition: { duration: 0.5 } }}
+      className="py-12 font-titleFont flex gap-20"
+    >
+      <div className="w-1/2">
+        <div className="flex flex-col gap-4">
+          <p className="text-sm text-designColor tracking-[4px]">Features</p>
+          <h2 className="text-4xl font-bold">Frontend Skill</h2>
+        </div>
+        <div className="mt-14 w-full flex flex-col gap-6 ">
+          <div className="overflow-x-hidden">
+            <p>React</p>
+            <span className="w-full h-2 mt-2 bgOpacity inline-flex rounded-md">
+            <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[90%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-8 right-0">90%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p>Nextjs</p>
+            <span className="w-full h-2 mt-2 bgOpacity inline-flex rounded-md">
+            <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[30%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-8 right-0">30%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p>Css</p>
+            <span className="w-full h-2 mt-2 bgOpacity inline-flex rounded-md">
+            <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[60%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-8 right-0">60%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p>TailwindCss</p>
+            <span className="w-full h-2 mt-2 bgOpacity inline-flex rounded-md">
+            <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[50%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-8 right-0">50%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p>Wpf (C#)</p>
+            <span className="w-full h-2 mt-2 bgOpacity inline-flex rounded-md">
+            <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[70%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-8 right-0">70%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p>Flutter</p>
+            <span className="w-full h-2 mt-2 bgOpacity inline-flex rounded-md">
+            <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[70%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-8 right-0">70%</span>
+              </motion.span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="w-1/2">
+      <div className="flex flex-col gap-4">
+          <p className="text-sm text-designColor tracking-[4px]">Features</p>
+          <h2 className="text-4xl font-bold">Backend Skill</h2>
+        </div>
+        <div className="mt-14 w-full flex flex-col gap-6 ">
+          <div className="overflow-x-hidden">
+            <p>Nodejs</p>
+            <span className="w-full h-2 mt-2 bgOpacity inline-flex rounded-md">
+            <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[50%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-8 right-0">50%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p>Java spring boot</p>
+            <span className="w-full h-2 mt-2 bgOpacity inline-flex rounded-md">
+            <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[60%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-8 right-0">60%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p>SQL</p>
+            <span className="w-full h-2 mt-2 bgOpacity inline-flex rounded-md">
+            <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[70%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-8 right-0">70%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p>C#</p>
+            <span className="w-full h-2 mt-2 bgOpacity inline-flex rounded-md">
+            <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[50%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-8 right-0">50%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
+            <p>ElasticSearch</p>
+            <span className="w-full h-2 mt-2 bgOpacity inline-flex rounded-md">
+            <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[50%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-8 right-0">50%</span>
+              </motion.span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </motion.div>
+  );
+};
+
+export default Experience;

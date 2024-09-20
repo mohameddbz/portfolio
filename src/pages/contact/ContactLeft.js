@@ -1,0 +1,49 @@
+import React from 'react'
+import { contactImg } from '../../assets'
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+
+const ContactLeft = () => {
+  return (
+    <div className="w-[35%] h-auto bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 
+                    rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
+        <img 
+            className='w-full h-64 object-cover rounded-lg mb-2' 
+            src={contactImg} 
+            alt="contactImg"
+        /> 
+        <div>
+            <h3 className='text-2xl font-bold text-white'>
+                Mohamed Amine Dabouz
+            </h3>
+            <p className="text-lg font-normal text-gray-400">
+            Full Stack Developer
+            </p>
+            <p className="text-base text-gray-400 tracking-wide">
+            A Software Engineering and a professional coder 
+            </p>
+            <p className="text-base text-gray-400 flex items-center gap-2">
+            Phone: <span className="text-lightText">+213555411700</span>
+            </p>
+            <p className="text-base text-gray-400 flex items-center gap-2">
+            Email: <span className="text-lightText">lm_dabouz@esi.dz</span>
+            </p>
+        </div>
+        <div className="flex flex-col gap-4">
+            <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
+            <div className="flex gap-4">
+                <span className="bannerIcon">
+                    <FaFacebookF />
+                </span>
+                <span className="bannerIcon">
+                    <FaTwitter />
+                </span>
+                <span className="bannerIcon">
+                    <FaLinkedinIn />
+                </span>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default ContactLeft
