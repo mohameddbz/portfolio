@@ -22,24 +22,24 @@ const Features = () => {
           desc = "I am proficient in HTML, CSS, and Tailwind and React for developing dynamic and high-performance web applications." 
            />
         <Card 
-          title = "Frontend Development "
-          desc = "I am proficient in HTML, CSS, and Tailwind and React for developing dynamic and high-performance web applications." 
+          title = "Backend Development "
+          desc = "I am proficient in Node.js, Express, java spring, and SQL for building robust and scalable server-side applications, APIs, and database management systems." 
           icon = {<AiFillAppstore/>} />
         <Card 
-          title = "Frontend Development "
-          desc = "I am proficient in HTML, CSS, and Tailwind and React for developing dynamic and high-performance web applications." 
+          title = "Desktop Development "
+          desc = "I am skilled in using C# for developing cross-platform desktop applications with seamless user interfaces and efficient performance." 
+         />
+        <Card 
+          title = "Project Management "
+          desc = "I am skilled in using agile methodologies like Scrum and Kanban to manage complex projects within deadlines and budgets. I also excel in writing clear specifications that define functional and technical requirements, ensuring effective communication among stakeholders." 
           icon = {<AiFillAppstore/>} />
         <Card 
-          title = "Frontend Development "
-          desc = "I am proficient in HTML, CSS, and Tailwind and React for developing dynamic and high-performance web applications." 
-          icon = {<AiFillAppstore/>} />
+          title = "Software Architecture "
+          desc = "I am skilled in designing robust and scalable software architectures, applying design principles such as microservices, and Service-Oriented Architectures (SOA)." 
+         />
         <Card 
-          title = "Frontend Development "
-          desc = "I am proficient in HTML, CSS, and Tailwind and React for developing dynamic and high-performance web applications." 
-          icon = {<AiFillAppstore/>} />
-        <Card 
-          title = "Frontend Development "
-          desc = "I am proficient in HTML, CSS, and Tailwind and React for developing dynamic and high-performance web applications." 
+          title = "Cybersecurity "
+          desc = "I have expertise in cybersecurity, particularly in implementing data protection mechanisms, vulnerability prevention, and auditing system security." 
           icon = {<AiFillAppstore/>} />
       </div>
     </section>

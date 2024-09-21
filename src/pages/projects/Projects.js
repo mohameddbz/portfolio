@@ -1,6 +1,6 @@
 import React from 'react'
 import ProjectCard from '../../components/ProjectCard'
-import { projectOne } from "../../assets/index";
+import { projectOne, projectThree, projectTwo , projectFour , projectFive ,projectSixe } from "../../assets/index";
 
 const Projects = () => {
   return (
@@ -19,40 +19,36 @@ const Projects = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
             <ProjectCard
-                title="SOCIAL MEDIA CLONE"
-                des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+                title="My Portfolio"
+                des="Check out my portfolio to see a collection of my projects. Each one showcases my skills in web development, highlighting my creativity and problem-solving abilities."
                 src={projectOne}
             />
             <ProjectCard
-                title="SOCIAL MEDIA CLONE"
-                des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                src={projectOne}
+                title="Intelligent Search for Scientific Articles"
+                des="Intelligent search for scientific articles uses elasticSearch to streamline access to relevant publications, helping researchers quickly find the information they need."
+                src={projectTwo}
             />
             <ProjectCard
-                title="SOCIAL MEDIA CLONE"
-                des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                src={projectOne}
+                title="ArchiMind"
+                des="We developed an interactive tool to improve learning in computer architecture and assembly language,
+                 ensuring students receive quality education that aligns with the fast-paced changes in computer science."
+                src={projectThree}
             />
             <ProjectCard
-                title="SOCIAL MEDIA CLONE"
-                des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                src={projectOne}
+                title="ESI Website"
+                des="the ESI website, your gateway to our computer science programs and resources, featuring opportunities for student engagement and research."
+                src={projectFour}
             />
             <ProjectCard
-                title="SOCIAL MEDIA CLONE"
-                des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                src={projectOne}
+                title="SOCIAL MEDIA App"
+                des=" our social media platform, where you can connect, share, and engage with friends and communities. Discover new content, express yourself, and stay updated with the latest trends."
+                src={projectFive}
             />
             <ProjectCard
-                title="SOCIAL MEDIA CLONE"
-                des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                    Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-                src={projectOne}
+                title="Instagram Clone "
+                des="Instagram clone, a platform for sharing photos and videos, connecting with friends, 
+                and discovering new content. Enjoy features like filters, stories, and personalized feeds to express your creativity and stay engaged!"
+                src={projectSixe}
             />
         </div>
 

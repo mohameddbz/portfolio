@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className='w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600'>
        <div>
-        <img src={logo} alt='logo'/>
+        <img className='h-[90px] w-[139px]' src={logo} alt='logo'/>
        </div>
        <div>
             <ul className='hidden mdl:inline-flex items-center gap-6 lg:gap-10'>
@@ -67,13 +67,21 @@ const Navbar = () => {
                     </h2>
                     <div className="flex gap-4">
                       <span className="bannerIcon">
-                        <FaFacebookF />
+                        <a
+                          href="https://www.facebook.com/profile.php?id=100070273536669"
+                        >
+                          <FaFacebookF />
+                        </a>
+                      </span>
+                      <span className="bannerIcon">
+                        <a
+                          href="https://www.linkedin.com/in/dabouz-mohamedamine-b76198280/"
+                        >
+                          <FaLinkedinIn />
+                        </a>
                       </span>
                       <span className="bannerIcon">
                         <FaTwitter />
-                      </span>
-                      <span className="bannerIcon">
-                        <FaLinkedinIn />
                       </span>
                     </div>
                   </div>

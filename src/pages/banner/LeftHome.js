@@ -46,9 +46,23 @@ const LeftHome = () => {
                     Find me in 
                 </h2>
                 <div className='flex gap-4'>
-                    <span className='bannerIcon'> <FaFacebookF/></span>
-                    <span className='bannerIcon'> <FaTwitter/></span>
-                    <span className='bannerIcon'> <FaLinkedinIn/></span>
+                <span className="bannerIcon">
+                        <a
+                          href="https://www.facebook.com/profile.php?id=100070273536669"
+                        >
+                          <FaFacebookF />
+                        </a>
+                      </span>
+                      <span className="bannerIcon">
+                        <a
+                          href="https://www.linkedin.com/in/dabouz-mohamedamine-b76198280/"
+                        >
+                          <FaLinkedinIn />
+                        </a>
+                      </span>
+                      <span className="bannerIcon">
+                        <FaTwitter />
+                      </span>
                 </div>
             </div>
             <div>
