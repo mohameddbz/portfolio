@@ -16,7 +16,7 @@ const Features = () => {
           What I do 
         </h1>
       </div>
-      <div className='grid grid-cols-3 gap-20'>
+      <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20'>
         <Card 
           title = "Frontend Development "
           desc = "I am proficient in HTML, CSS, and Tailwind and React for developing dynamic and high-performance web applications." 

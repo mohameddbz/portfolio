@@ -44,11 +44,11 @@ const ContactRight = () => {
     }
 
   return (
-    <div className="w-[60%] h-auto bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 
+    <div className="w-full lgl:w-[60%] h-auto bg-gradient-to-r from-[#1e2024] to-[#23272b] p-4 lgl:p-8 
                     rounded-lg shadow-shadowOne flex flex-col gap-8">
         <form action="" className='w-full flex flex-col gap-6 py-5'>
-            <div className='w-full flex gap-10'>
-                <div className='w-1/2 flex flex-col gap-4'>
+            <div className='w-full flex flex-col lgl:flex-row gap-10'>
+                <div className='w-full lgl:w-1/2 flex flex-col gap-4'>
                     <p className="text-sm text-gray-400 uppercase tracking-wide">
                         Your name
                     </p> 
@@ -61,7 +61,7 @@ const ContactRight = () => {
                         onChange={(e)=>{setUsername(e.target.value)}}
                     />
                 </div>
-                <div className='w-1/2 flex flex-col gap-4'>
+                <div className='w-full lgl:w-1/2 flex flex-col gap-4'>
                     <p className="text-sm text-gray-400 uppercase tracking-wide">
                         Phone Number
                     </p> 

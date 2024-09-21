@@ -12,13 +12,13 @@ const Contact = () => {
                 <h3 className='text-sm uppercase font-light text-designColor tracking-wide'>
                 Contact
                 </h3>
-                <h1 className='text-5xl capitalize text-gray-300 font-bold'>
+                <h1 className='text-4xl md:text-5xl capitalize text-gray-300 font-bold'>
                 Contact With Me
                 </h1>
             </div>
         </div>
         <div className="w-full">
-            <div className="w-full h-auto flex justify-between">
+            <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
                 <ContactLeft/>
                 <ContactRight/>
             </div>

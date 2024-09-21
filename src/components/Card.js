@@ -23,7 +23,7 @@ const Card = ({title , desc , icon }) => {
                     )}
                 </div>
                 <div className='flex flex-col gap-6'>
-                    <h2 className='text-xl font-titleFont font-bold text-gray-300'>
+                    <h2 className='text-xl md:text-2xl font-titleFont font-bold text-gray-300'>
                         {title}
                     </h2>
                     <p className='base'> {desc} </p>

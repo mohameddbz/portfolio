@@ -14,7 +14,7 @@ const LeftHome = () => {
       });
 
   return (
-    <div className='w-1/2 flex flex-col gap-20' >
+    <div className='w-full lgl:w-1/2 flex flex-col gap-20' >
         <div className='flex flex-col gap-5'>
             <h4 className='text-lg font-normal'>WELCOM TO MY WORLD </h4>
             <h1 className='text-5xl font-bold text-white'>
@@ -40,7 +40,7 @@ const LeftHome = () => {
                 I will graduate as a software engineer.
             </p>
         </div>
-       <div className='flex justify-between'>
+       <div className='flex flex-col lgl:flex-row gap-6 lgl:gap-0 justify-between'>
             <div>
                 <h2 className='text-base uppercase font-titleFont mb-4'>
                     Find me in 
