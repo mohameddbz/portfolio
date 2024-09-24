@@ -154,6 +154,19 @@ const Experience = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
+            <p>FastApi(python)</p>
+            <span className="w-full h-2 mt-2 bgOpacity inline-flex rounded-md">
+            <motion.span
+                initial={{ x: "-100%", opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                transition={{ duration: 0.5, delay: 0.5 }}
+                className="w-[50%] h-full bg-gradient-to-r from-blue-600 via-pink-500 to-red-500 rounded-md relative"
+              >
+                <span className="absolute -top-8 right-0">50%</span>
+              </motion.span>
+            </span>
+          </div>
+          <div className="overflow-x-hidden">
             <p>ElasticSearch</p>
             <span className="w-full h-2 mt-2 bgOpacity inline-flex rounded-md">
             <motion.span
